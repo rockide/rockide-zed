@@ -1,5 +1,5 @@
-id = "rockide"
-name = "Rockide"
+id = "rockide-language-server"
+name = "Rockide Language Server"
 version = "0.1.0"
 schema_version = 1
 authors = ["rockide"]
