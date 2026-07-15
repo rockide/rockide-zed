@@ -1,6 +1,6 @@
 id = "rockide-language-server"
 name = "Rockide Language Server"
-version = "0.1.0"
+version = "0.2.0"
 schema_version = 1
 authors = ["rockide"]
 description = "Zed extension for Minecraft Bedrock that provides rich auto-completions, go-to definitions, and schema validation."
