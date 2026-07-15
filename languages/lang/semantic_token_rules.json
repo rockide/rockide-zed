@@ -1,0 +1,129 @@
+[
+  {
+    "token_type": "colorDefault"
+  },
+  {
+    "token_type": "colorGreen",
+    "foreground_color": "#54FF54"
+  },
+  {
+    "token_type": "colorAqua",
+    "foreground_color": "#54FFFF"
+  },
+  {
+    "token_type": "colorRed",
+    "foreground_color": "#FF5454"
+  },
+  {
+    "token_type": "colorLightPurple",
+    "foreground_color": "#FF54FF"
+  },
+  {
+    "token_type": "colorYellow",
+    "foreground_color": "#FFFF54"
+  },
+  {
+    "token_type": "colorWhite",
+    "foreground_color": "#FFFFFF"
+  },
+  {
+    "token_type": "colorMinecoinGold",
+    "foreground_color": "#EFCE16"
+  },
+  {
+    "token_type": "colorMaterialQuartz",
+    "foreground_color": "#E2D3D1"
+  },
+  {
+    "token_type": "colorMaterialIron",
+    "foreground_color": "#CEC9C9"
+  },
+  {
+    "token_type": "colorMaterialNetherite",
+    "foreground_color": "#44393A"
+  },
+  {
+    "token_type": "colorMaterialRedstone",
+    "foreground_color": "#961506"
+  },
+  {
+    "token_type": "colorMaterialCopper",
+    "foreground_color": "#B4684D"
+  },
+  {
+    "token_type": "colorMaterialGold",
+    "foreground_color": "#DEB12D"
+  },
+  {
+    "token_type": "colorMaterialEmerald",
+    "foreground_color": "#47A036"
+  },
+  {
+    "token_type": "colorMaterialDiamond",
+    "foreground_color": "#2CB9A8"
+  },
+  {
+    "token_type": "colorMaterialLapisLazuli",
+    "foreground_color": "#20487A"
+  },
+  {
+    "token_type": "colorMaterialAmethyst",
+    "foreground_color": "#9A5CC5"
+  },
+  {
+    "token_type": "colorMaterialResin",
+    "foreground_color": "#EA7113"
+  },
+  {
+    "token_type": "colorBlack",
+    "foreground_color": "#000000"
+  },
+  {
+    "token_type": "colorDarkBlue",
+    "foreground_color": "#0000AA"
+  },
+  {
+    "token_type": "colorDarkGreen",
+    "foreground_color": "#00AA00"
+  },
+  {
+    "token_type": "colorDarkAqua",
+    "foreground_color": "#00AAAA"
+  },
+  {
+    "token_type": "colorDarkRed",
+    "foreground_color": "#AA0000"
+  },
+  {
+    "token_type": "colorDarkPurple",
+    "foreground_color": "#AA00AA"
+  },
+  {
+    "token_type": "colorGold",
+    "foreground_color": "#FFAA00"
+  },
+  {
+    "token_type": "colorGray",
+    "foreground_color": "#C5C5C5"
+  },
+  {
+    "token_type": "colorDarkGray",
+    "foreground_color": "#545454"
+  },
+  {
+    "token_type": "colorBlue",
+    "foreground_color": "#5555FF"
+  },
+  {
+    "token_modifiers": ["obfuscated"],
+    "strikethrough": true
+  },
+  {
+    "token_modifiers": ["bold"],
+    "font_weight": "bold"
+  },
+  {
+    "token_modifiers": ["italic"],
+    "font_style": "italic"
+  }
+]
