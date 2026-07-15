@@ -1,0 +1,14 @@
+name = "Minecraft Lang"
+grammar = "lang"
+path_suffixes = ["lang"]
+line_comments = ["## "]
+hard_tabs = true
+brackets = [
+  { start = "{", end = "}", close = true, newline = false },
+  { start = "<", end = ">", close = true, newline = false },
+  { start = "[", end = "]", close = true, newline = false },
+  { start = "(", end = ")", close = true, newline = false },
+  { start = "\"", end = "\"", close = true, newline = false },
+  { start = "'", end = "'", close = true, newline = false },
+  { start = "`", end = "`", close = true, newline = false },
+]
