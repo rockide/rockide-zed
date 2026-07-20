@@ -1,0 +1,14 @@
+name = "Minecraft Function"
+grammar = "mcfunction"
+path_suffixes = ["mcfunction"]
+line_comments = ["# ", "## "]
+hard_tabs = true
+brackets = [
+  { start = "{", end = "}", close = true, newline = false },
+  { start = "<", end = ">", close = true, newline = false },
+  { start = "[", end = "]", close = true, newline = false },
+  { start = "(", end = ")", close = true, newline = false },
+  { start = "\"", end = "\"", close = true, newline = false },
+  { start = "'", end = "'", close = true, newline = false },
+  { start = "`", end = "`", close = true, newline = false },
+]

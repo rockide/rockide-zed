@@ -8,7 +8,7 @@ repository = "https://github.com/rockide/rockide-zed"
 
 [language_servers.rockide]
 name = "rockide"
-languages = ["JSON", "JSONC", "Minecraft Lang"]
+languages = ["JSON", "JSONC", "Minecraft Lang", "Minecraft Function"]
 
 [language_servers.rockide.language_ids]
 "JSON" = "json"
@@ -17,3 +17,7 @@ languages = ["JSON", "JSONC", "Minecraft Lang"]
 [grammars.lang]
 repository = "https://github.com/rockide/tree-sitter-lang"
 commit = "a32714513c10274f32d4ac10e523f3b54291ece7"
+
+[grammars.mcfunction]
+repository = "https://github.com/rockide/tree-sitter-mcfunction"
+commit = "a6667734c8022fb93398e429260309fc104d9e9a"
