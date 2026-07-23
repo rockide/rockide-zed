@@ -129,9 +129,15 @@ impl RockideExtension {
                 .collect()
         };
         let schema = |name: &str, file_match: Vec<String>| -> serde_json::Value {
+            let root_path = if cfg!(target_os = "linux") {
+                root.trim_start_matches('/')
+            } else {
+                root.as_str()
+            };
+        
             serde_json::json!({
                 "fileMatch": file_match,
-                "url": format!("file:///{root}/{name}/main.json")
+                "url": format!("file:///{}/{name}/main.json", root_path)
             })
         };
 
