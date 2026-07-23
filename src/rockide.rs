@@ -115,6 +115,7 @@ impl RockideExtension {
             .join("schemas")
             .display()
             .to_string();
+        let root = root.trim_start_matches('/');
 
         let match_bp = |path: &str| -> Vec<String> {
             ["behavior_pack", "*BP", "BP_*", "*bp", "bp_*"]
